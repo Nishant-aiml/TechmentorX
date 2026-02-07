@@ -1,0 +1,49 @@
+.code-editor {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #1e1e1e;
+}
+
+.editor-header {
+    height: 40px;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    background: #252526;
+    border-bottom: 1px solid #333;
+}
+
+.file-path {
+    font-size: 0.85rem;
+    color: #cccccc;
+    font-family: monospace;
+}
+
+.editor-placeholder {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1e1e1e;
+}
+
+.placeholder-content {
+    text-align: center;
+    color: #6c7086;
+}
+
+.placeholder-icon {
+    font-size: 4rem;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.placeholder-content p {
+    margin: 0.5rem 0;
+}
+
+.placeholder-hint {
+    font-size: 0.85rem;
+    color: #45475a;
+}

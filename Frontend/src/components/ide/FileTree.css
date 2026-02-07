@@ -1,0 +1,68 @@
+.file-tree {
+    height: 100%;
+    background: #1e1e2e;
+    color: #cdd6f4;
+    overflow-y: auto;
+}
+
+.tree-header {
+    padding: 1rem;
+    border-bottom: 1px solid #313244;
+}
+
+.tree-header h3 {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #a6adc8;
+}
+
+.tree-content {
+    padding: 0.5rem 0;
+}
+
+.tree-item {
+    user-select: none;
+}
+
+.tree-folder {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.75rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.tree-folder:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.folder-icon {
+    color: #89b4fa;
+}
+
+.tree-file {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.75rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.tree-file:hover {
+    background: rgba(124, 58, 237, 0.2);
+}
+
+.file-icon {
+    font-size: 0.9rem;
+}
+
+.file-tree.loading,
+.file-tree.empty {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #6c7086;
+    font-size: 0.9rem;
+}
